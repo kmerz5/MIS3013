@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "In Class - 2-8-21", "In Class - 2-8-21\In Class - 2-8-21.csproj", "{4F00DA3F-38B2-4C5B-B0A9-7480C0810402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "In Class Fizz Buzz", "In Class Fizz Buzz\In Class Fizz Buzz.csproj", "{EFEC7D71-BBE1-4A37-AFCE-03EE2C0CB7DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "In Class Fizz Buzz", "In Class Fizz Buzz\In Class Fizz Buzz.csproj", "{EFEC7D71-BBE1-4A37-AFCE-03EE2C0CB7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-22-2021", "2-22-2021\2-22-2021.csproj", "{4AAE0715-DF71-496B-95B0-73B04AAC6669}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EFEC7D71-BBE1-4A37-AFCE-03EE2C0CB7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFEC7D71-BBE1-4A37-AFCE-03EE2C0CB7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFEC7D71-BBE1-4A37-AFCE-03EE2C0CB7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAE0715-DF71-496B-95B0-73B04AAC6669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAE0715-DF71-496B-95B0-73B04AAC6669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAE0715-DF71-496B-95B0-73B04AAC6669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAE0715-DF71-496B-95B0-73B04AAC6669}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
