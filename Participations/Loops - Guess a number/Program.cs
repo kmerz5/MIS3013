@@ -13,17 +13,12 @@ namespace Loops___Guess_a_number
             string min = Console.ReadLine();
             int minvalue = Convert.ToInt32(min);
 
-            
-
             Random rand = new Random();
             int randomnumber = rand.Next(minvalue, maxvalue);
-
-            
                
-                Console.WriteLine("What is your guess for the random number between {minvalue} and {maxValue}?>>");
+                Console.WriteLine("What is your guess for the random number between " + minvalue + " and " + maxvalue);
                string Guess = Console.ReadLine();
            int Guessnumber = Convert.ToInt32(Guess);
-
 
             while (Guessnumber != randomnumber)
             {
