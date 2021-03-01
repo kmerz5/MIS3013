@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "In Class Fizz Buzz", "In Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-22-2021", "2-22-2021\2-22-2021.csproj", "{4AAE0715-DF71-496B-95B0-73B04AAC6669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-24-2021", "02-24-2021\02-24-2021.csproj", "{E9BEE363-1BB1-4D14-B56C-036ABEAD3652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-24-2021", "02-24-2021\02-24-2021.csproj", "{E9BEE363-1BB1-4D14-B56C-036ABEAD3652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File_Sample-2-24-21", "File_Sample-2-24-21\File_Sample-2-24-21.csproj", "{8A34324E-2D79-4BFD-AE37-D4E356B0A303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "File_Sample-2-24-21", "File_Sample-2-24-21\File_Sample-2-24-21.csproj", "{8A34324E-2D79-4BFD-AE37-D4E356B0A303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String Manipulation", "String Manipulation\String Manipulation.csproj", "{B67C24B8-D6A3-4C6D-8C28-45A588B04510}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8A34324E-2D79-4BFD-AE37-D4E356B0A303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A34324E-2D79-4BFD-AE37-D4E356B0A303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A34324E-2D79-4BFD-AE37-D4E356B0A303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67C24B8-D6A3-4C6D-8C28-45A588B04510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67C24B8-D6A3-4C6D-8C28-45A588B04510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67C24B8-D6A3-4C6D-8C28-45A588B04510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67C24B8-D6A3-4C6D-8C28-45A588B04510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
