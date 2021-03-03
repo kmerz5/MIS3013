@@ -16,7 +16,7 @@ namespace String_Manipulation
                // Console.WriteLine(msg2[i]);
            // }
 
-            return;
+            
             
             string newMessage = message.ToUpper()[0] + message.ToLower().Substring(1);
             //toupper and tolower are only for strings not characters

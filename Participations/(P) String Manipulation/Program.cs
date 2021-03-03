@@ -19,13 +19,13 @@ namespace _P__String_Manipulation
             else
             {
                 Console.WriteLine("Sorry I could not find your word {" + word + "}");
-                
 
-                for (int i = length - 1; i < Convert.ToInt32(word); i++)
+                string ReverseWord = "";
+                for (int i = word.Length-1; i <= 0; i--)
                 {
-                    int WordCount = word.Length;
-                    Console.WriteLine()
-                    
+                   String ReverseInput = String.Concat(word[-i]);
+                    Console.WriteLine(ReverseInput);
+
                 }
                 
                
