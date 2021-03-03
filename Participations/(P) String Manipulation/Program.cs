@@ -21,12 +21,12 @@ namespace _P__String_Manipulation
                 Console.WriteLine("Sorry I could not find your word {" + word + "}");
 
                 string ReverseWord = "";
-                for (int i = word.Length-1; i <= 0; i--)
+                for (int i = word.Length-1; i >= 0; i--)
                 {
-                   String ReverseInput = String.Concat(word[-i]);
-                    Console.WriteLine(ReverseInput);
+                    ReverseWord += word[i];
 
                 }
+                    Console.WriteLine(ReverseWord);
                 
                
                 
