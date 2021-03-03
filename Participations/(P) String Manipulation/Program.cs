@@ -15,6 +15,8 @@ namespace _P__String_Manipulation
             {
                 Console.WriteLine("What word would you change your selected word too?>>");
                 string wordChange = Console.ReadLine();
+                String NewSentence = statement.Replace(word, wordChange);
+                Console.WriteLine(NewSentence);
             }
             else
             {
