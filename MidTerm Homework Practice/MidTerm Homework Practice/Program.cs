@@ -13,7 +13,7 @@ namespace MidTerm_Homework_Practice
             to the user.  Assume that the sales tax for your application is 8.5% (create a constant to store this 
             value and use the constant in your calculations)*/
 
-           /* Console.WriteLine("What type of item are you purchasing?");
+           Console.WriteLine("What type of item are you purchasing?");
             string type = Console.ReadLine();
 
             Console.WriteLine("How many " + type + "'s are you purchasing?");
@@ -32,7 +32,7 @@ namespace MidTerm_Homework_Practice
             Console.WriteLine(" ");
             Console.WriteLine("Your subtotal is " + subtotal.ToString("C2"));
             Console.WriteLine("Your SalesTax is " + SalesTax.ToString("C2"));
-            Console.WriteLine("Your SalesTotal is " + SalesTotal.ToString("C2"));*/
+            Console.WriteLine("Your SalesTotal is " + SalesTotal.ToString("C2"));
 
 
 
@@ -49,7 +49,7 @@ namespace MidTerm_Homework_Practice
             string LastName = Console.ReadLine();
 
             Console.WriteLine("What is your student ID number?");
-            string answer = Console.ReadLine();
+            answer = Console.ReadLine();
             double ID = Convert.ToDouble(answer);
 
             Console.WriteLine("What was your overall grade for participations?");
