@@ -12,6 +12,37 @@ namespace Homework_4
             and vowels in the following format (2 separate lines and the format specifier should be general with 
             0 decimal places!)*/
 
+            Console.WriteLine("Please input a sentence.");
+            string sentence = Console.ReadLine();
+            sentence = sentence.ToLower();
+
+            int vowels = 0;
+            int consonants = 0;
+
+            for (int i = 0; i < sentence.Length; i++)
+            {
+                char letter = sentence[i];
+                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+                {
+                vowels++;
+                }
+                else if ((letter == ' ' || letter == '!' || letter == '?' || letter == '\"' || letter == '\'' ||
+                    letter == '1' || letter == '2' || letter == '3' || letter == '4' || letter == '5' ||
+                    letter == '6' || letter == '7' || letter == '8' || letter == '9' || letter == ';' ||
+                    letter == ':' || letter == '(' || letter == ')' || letter == '/' || letter == '&' ||
+                    letter == '.' || letter == ',' || letter == '$' || letter == '*' || letter == '#'))
+                {
+
+                }
+                else
+                {
+                    consonants++;
+                } 
+            }
+            Console.WriteLine("There were " + vowels.ToString("G0") + " vowels in your sentence.");
+            Console.WriteLine("There were " + consonants.ToString("G0") + " consonants in your sentence");
+
+
 
             /*l337 Converter
                 Prompt the user to input a sentence.  Once you have their sentence 
