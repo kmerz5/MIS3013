@@ -78,7 +78,17 @@ namespace Homework_3
             console window in the following format: The tuition after year 1 will be $12,600.
             Note: The number is in the output and the format of the tuition amount is currency with 0 decimal places*/
 
+            double StartingTuition = 12600;
+            double Tuition = 0;
+            double TuitionIncrease = .05;
+            
 
+            for (int i = 1; i < 8; i++)
+            {
+                Tuition = StartingTuition + (Tuition * TuitionIncrease);
+                Console.WriteLine("For year " + i + " the tuition is " + Tuition.ToString("C2"));
+            }
+            
 
 
         }
