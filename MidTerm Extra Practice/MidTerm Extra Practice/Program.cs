@@ -4,8 +4,13 @@ namespace MidTerm_Extra_Practice
 {
     class Program
     {
+        //Define a Class variable
+        static int june = 1;
         static void Main(string[] args)
         {
+            Console.WriteLine("June is = " + june);
+            Console.WriteLine(" "); 
+//__________________________________________________________________________________________________
          //Generate a random number
             Random rand = new Random();
             int rand1 = rand.Next(1, 51);
@@ -13,11 +18,12 @@ namespace MidTerm_Extra_Practice
 //__________________________________________________________________________________________________
          // Use substring and Indexof
          //EX:wanting the first word, finding the first space and just output what is before
-            Console.WriteLine("please enter a sentence into the console.");
+            Console.WriteLine("Please enter a sentence into the console.");
             string answer = Console.ReadLine();
             string Sentence = answer;
             string NewSentence = Sentence.Substring(0, Sentence.IndexOf(" "));
             Console.WriteLine(NewSentence);
+            Console.WriteLine(" ");
 //_______________________________________________________________________________________________
          //difference between IF, FOR, and WHILE loops
             //IF EXAMPLE - ask the user to pick a word from this sentence, if the word they chose is in the sentence, ask them to replace it with
