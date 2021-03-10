@@ -7,10 +7,11 @@ namespace Homework_4
         static void Main(string[] args)
         {
             /*Vowels and Consonants
-                Prompt the user to input a sentence.  Once you have their sentence, figure out how many vowels 
+                Prompt the user to input a sentence.DONE  Once you have their sentence, figure out how many vowels 
             (a, e, i, o, u) and how many consonants are in the sentence.  Output the total number of consonants 
             and vowels in the following format (2 separate lines and the format specifier should be general with 
             0 decimal places!)*/
+
 
             /* Console.WriteLine("Please input a sentence.");
              string sentence = Console.ReadLine();
@@ -62,7 +63,42 @@ namespace Homework_4
             sentence ends with an exclamation mark!  If it already ends with an exclamation mark, 
             do not add another, otherwise concatenate a '!' at the end!*/
 
-            Console.WriteLine("Please enter a sentence.");
+            Console.WriteLine("please input a sentence into the console.");
+            string answer = Console.ReadLine();
+            string Sentence = answer.ToUpper();
+
+            Sentence = Sentence.Replace("A", "4");
+            Sentence = Sentence.Replace("E", "3");
+            Sentence = Sentence.Replace("H", "|-|");
+            Sentence = Sentence.Replace("S", "$");
+            Sentence = Sentence.Replace("T", "7");
+            Sentence = Sentence.Replace("U", "|_|");
+            Sentence = Sentence.Replace("O", "0");
+            Sentence = Sentence.Replace("P", "[]D");
+
+            //REMEMBER THE SENTENCE[SENTENCE.LENGTH-1]
+            if (Sentence[Sentence.Length-1] != '!')
+            {
+                Console.WriteLine(Sentence + "!");
+            }
+            else
+            {
+                Console.WriteLine(Sentence);
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*Console.WriteLine("Please enter a sentence.");
             string answer = Console.ReadLine();
             string sentence = answer.ToUpper();
 
@@ -82,7 +118,7 @@ namespace Homework_4
             else
             {
                 Console.WriteLine(sentence);
-            }
+            }*/
 
         }
 }
