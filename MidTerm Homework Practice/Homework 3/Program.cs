@@ -15,6 +15,21 @@ namespace Homework_3
             (e.g. After 1 minute, you have burned 3.9 calories).  Keep outputting the total amount of calories 
             they have burned until they have met their goal.*/
 
+            /*double calorie = 3.9;
+            double minutes = 0;
+            double CaloriesBurned = calorie * minutes;
+
+            Console.WriteLine("How many calories would you like to burn during this workout?");
+            string answer = Console.ReadLine();
+            double goal = Convert.ToDouble(answer);
+            while (goal > CaloriesBurned)
+            {
+                minutes+=1;
+                CaloriesBurned = calorie + CaloriesBurned;
+                Console.WriteLine("You have worked out for " + minutes + " and burned " + CaloriesBurned + "calories");
+            }*/
+
+
 
 
             /*Console.WriteLine("How many calories do you wish to burn in this workout session?");
@@ -33,17 +48,44 @@ namespace Homework_3
             }*/
 
 
-//-------------------------------------------------------------------------------------------------------------------
+            //-------------------------------------------------------------------------------------------------------------------
             /*Tutor
                 Create a C# console application (do not create a .NET CORE project) and name the project Tutor. 
             Generate two random integers, each between 1 and 50, that you will be adding together to test the users
             ability to perform the addition operator.  Display the numbers in the console, such as:
             7 + 22 = ?DONE
             Once the user provides their answer, check to see if it is correct and if not, tell them sorry,
-            please try again.  If their answer is correct, congratulate them on getting the right answer. 
+            please try again.  If their answer is correct, congratulate them on getting the right answer. */
+
+           /* Random rand = new Random();
+            int rand1 = rand.Next(1, 51);
+            int rand2 = rand.Next(1, 51);
+            int sum = rand1 + rand2;
+            int UserAnswer;
+
+            do
+            {
+                Console.WriteLine(rand1 + " + " + rand2 + " =  ?");
+                string answer = Console.ReadLine();
+                UserAnswer = Convert.ToInt32(answer);
+
+                if (int.TryParse(answer, out UserAnswer)==false)
+                {
+                    Console.WriteLine("Sorry, that was not a valid input, goodbye.");
+                    Environment.Exit(-1);
+                }
+                if (UserAnswer != sum)
+                {
+                    Console.WriteLine("That is incorrect, please guess again.");
+                }
+            } while (UserAnswer != sum);
+            Console.WriteLine("Congrats! You got the answer correct!");*/
+
+            
 
 
-            Random rand = new Random();
+
+           /* Random rand = new Random();
             int rand1 = rand.Next(1, 51);
             int rand2 = rand.Next(1, 51);
             int Sum = rand1 + rand2;
@@ -65,10 +107,10 @@ namespace Homework_3
                 }
             } while (answer != Sum );
             Console.WriteLine("Congradulations! You got it right!"); */
-            
 
-           
-     //-----------------------------------------------------------------------------------------------------------
+
+
+            //-----------------------------------------------------------------------------------------------------------
 
             /*Tuition Increase
                 Create a C# console application (do not create a .NET CORE project) and name the project 

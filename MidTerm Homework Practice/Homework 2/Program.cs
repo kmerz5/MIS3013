@@ -240,6 +240,100 @@ namespace Homework_2
             After the user answers all five questions, the app should output their final score out of 5, 
             as well as the percent of questions they answered correctly. If the user does not answer true/false, 
             the application should quit immediately.*/
+            double score = 0;
+
+            Console.WriteLine("dogs are better than cats (T/F)");
+            string answerA = Console.ReadLine();
+            if (answerA.ToUpper() == "T")
+            {
+                score = score + 1;
+            }
+            else if (answerA.ToUpper() == "F")
+            {
+                score = score + 0;
+            }
+            else
+            {
+                Console.WriteLine("That was not a valid input, you must put T or F. Goodbye");
+                Environment.Exit(-1);
+            }
+            
+            Console.WriteLine("snails are better than cats (T/F)");
+            string answerB = Console.ReadLine();
+            if (answerB.ToUpper() == "F")
+            {
+                score = score + 1;
+            }
+            else if (answerB.ToUpper() == "T")
+            {
+                score = score + 0;
+            }
+            else
+            {
+                Console.WriteLine("That was not a valid input, you must put T or F. Goodbye");
+                Environment.Exit(-1);
+            }
+
+            Console.WriteLine("armadillos are better than cats (T/F)");
+            string answerC = Console.ReadLine();
+            if (answerC.ToUpper() == "F")
+            {
+                score = score + 1;
+            }
+            else if (answerC.ToUpper() == "T")
+            {
+                score = score + 0;
+            }
+            else
+            {
+                Console.WriteLine("That was not a valid input, you must put T or F. Goodbye");
+                Environment.Exit(-1);
+            }
+
+            Console.WriteLine("Zebras are cooler than cats (T/F)");
+            string answerD = Console.ReadLine();
+            if (answerD.ToUpper() == "T")
+            {
+                score = score + 1;
+            }
+            else if (answerD.ToUpper() == "F")
+            {
+                score = score + 0;
+            }
+            else
+            {
+                Console.WriteLine("That was not a valid input, you must put T or F. Goodbye");
+                Environment.Exit(-1);
+            }
+
+            Console.WriteLine("turtles are better than cats (T/F)");
+            string answerE = Console.ReadLine();
+            if (answerE.ToUpper() == "F")
+            {
+                score = score + 1;
+            }
+            else if (answerE.ToUpper() == "T")
+            {
+                score = score + 0;
+            }
+            else
+            {
+                Console.WriteLine("That was not a valid input, you must put T or F. Goodbye");
+                Environment.Exit(-1);
+            }
+            double percentcorrect = score / 5;
+            Console.WriteLine("You got " + score + " out of 5 correct.");
+            Console.WriteLine("The percent you got right is " + percentcorrect.ToString("P2"));
+
+
+
+
+
+
+
+
+
+
 
             double Score = 0;
             Console.WriteLine("Dogs are better than cats. (true/false)?");
