@@ -86,7 +86,7 @@ namespace Homework_3
             for (int i = 1; i < 8; i++)
             {
                 Tuition = StartingTuition + (Tuition * TuitionIncrease);
-                Console.WriteLine("For year " + i + " the tuition is " + Tuition.ToString("C2"));
+                Console.WriteLine("For year " + i + " the tuition is " + Tuition.ToString("C0"));
             }
             
 
