@@ -59,7 +59,7 @@ namespace MidTerm_Extra_Practice
             }
             Console.WriteLine(" ");
 
-            //-----------------------------------------------------------
+ //----------------------------------------------------------------------------------------
 
             //WHILE Example: Have two numbers and ask the user to guess a number between those two numbers. If they get it right, tell them
             //congrats, if they do not get it right, have it keep repeating the question untill they do.
@@ -80,9 +80,32 @@ namespace MidTerm_Extra_Practice
                 guess = Convert.ToInt32(answer);
             }
             Console.WriteLine("Congrats! You guessed correctly!");
+            Console.WriteLine(" ");
 
+//_________________________________________________________________________________________________________________
 
-            //TryParse Example
+            //TryParse Example: Have them add two numbers together, if they do not enter an integer, exit the console
+            int numA = 3;
+            int numB = 6;
+            int sum = 9;
+
+            Console.WriteLine("Solve this problem: " + numA + " + " + numB + " = ?");
+            answer = Console.ReadLine();
+            int UserGuess;
+            if (int.TryParse(answer, out UserGuess) == false)
+            {
+                Console.WriteLine("Sorry, that is not a valid answer, you must enter an integer.");
+                Environment.Exit(-1);
+            }
+            while (sum != UserGuess)
+            {
+                Console.WriteLine("Solve this problem: " + numA + " + " + numB + " = ?");
+                answer = Console.ReadLine();
+                UserGuess = Convert.ToInt32(answer);
+                
+            }
+            Console.WriteLine("Congrats, you are good at math!");
+
         }
     }
 }
