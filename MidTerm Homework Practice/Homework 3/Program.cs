@@ -15,7 +15,7 @@ namespace Homework_3
             (e.g. After 1 minute, you have burned 3.9 calories).  Keep outputting the total amount of calories 
             they have burned until they have met their goal.*/
 
-            
+
 
             /*Console.WriteLine("How many calories do you wish to burn in this workout session?");
             string answer = Console.ReadLine();
@@ -33,16 +33,42 @@ namespace Homework_3
             }*/
 
 
-
+//-------------------------------------------------------------------------------------------------------------------
             /*Tutor
                 Create a C# console application (do not create a .NET CORE project) and name the project Tutor. 
             Generate two random integers, each between 1 and 50, that you will be adding together to test the users
             ability to perform the addition operator.  Display the numbers in the console, such as:
-            7 + 22 = ?
+            7 + 22 = ?DONE
             Once the user provides their answer, check to see if it is correct and if not, tell them sorry,
-            please try again.  If their answer is correct, congratulate them on getting the right answer. */
+            please try again.  If their answer is correct, congratulate them on getting the right answer. 
 
 
+            Random rand = new Random();
+            int rand1 = rand.Next(1, 51);
+            int rand2 = rand.Next(1, 51);
+            int Sum = rand1 + rand2;
+            int answer;
+            do
+            {
+              Console.WriteLine(rand1 + " + " + rand2 + " = ?");
+              string UserAnswer = Console.ReadLine();
+              
+                if (int.TryParse(UserAnswer, out answer)==false)
+                {
+                    Console.WriteLine("That was not a valid input. Goodbye.");
+                    Environment.Exit(-1);
+                }
+                if (answer != Sum)
+                {
+                    Console.WriteLine("Sorry, that was incorrect, guess again.");
+                    
+                }
+            } while (answer != Sum );
+            Console.WriteLine("Congradulations! You got it right!"); */
+            
+
+           
+     //-----------------------------------------------------------------------------------------------------------
 
             /*Tuition Increase
                 Create a C# console application (do not create a .NET CORE project) and name the project 
