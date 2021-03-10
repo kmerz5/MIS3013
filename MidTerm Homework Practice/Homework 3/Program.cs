@@ -9,10 +9,29 @@ namespace Homework_3
             /*Time to burn calories
                 Create a C# console application (do not create a .NET CORE project) and name the project TimeToBurn.
             Running on a particular treadmill, you burn 3.9 calories per minute.  
-            Ask the user how many calories they wish to burn in this workout session (this is their goal).  
+            Ask the user how many calories they wish to burn in this workout session (this is their goal). DONE
+            
             Once they tell you, output on the console after each minute, how many calories they have burned 
             (e.g. After 1 minute, you have burned 3.9 calories).  Keep outputting the total amount of calories 
             they have burned until they have met their goal.*/
+
+            
+
+            /*Console.WriteLine("How many calories do you wish to burn in this workout session?");
+            string answer = Console.ReadLine();
+            double goal = Convert.ToDouble(answer);
+
+            double CaloriesPerMinute = 3.9;
+            double minutes = 0;
+            double CaloriesBurned = CaloriesPerMinute * minutes;
+
+            while (CaloriesBurned < goal)
+            {
+                minutes++;
+                CaloriesBurned = CaloriesBurned + CaloriesPerMinute;
+                Console.WriteLine("After " + minutes + " minutes, you burned " + CaloriesBurned + " calories.");
+            }*/
+
 
 
             /*Tutor
@@ -36,6 +55,6 @@ namespace Homework_3
 
 
 
-}
+        }
 }
 }
