@@ -7,15 +7,15 @@ namespace _3_15_21_Collections
     {
         static void Main(string[] args)
         {
-   //QUESTION 1 FROM POWERPOINT
-      /*Create two parallel arrays.  The first will hold student id’s and the second will hold their 
-       * overall GPA. Ask the user for one of the id’s that they want to see the GPA for and then output it.*/
+            //QUESTION 1 FROM POWERPOINT
+            /*Create two parallel arrays.  The first will hold student id’s and the second will hold their 
+             * overall GPA. Ask the user for one of the id’s that they want to see the GPA for and then output it.*/
 
-      //NOTES
+            //NOTES
             //anytime using collections highly recommend making it plural
             //parallel = having the same size
             //Var will say figure out what the datatype is based on what is on the right side of the equal sign (when defining a variable)
-            
+
             string[] studentIDs = new string[3];
             double[] studentGPAs = { 3.0, 4.0, 2.5 };
 
@@ -40,7 +40,7 @@ namespace _3_15_21_Collections
                 {
                     Console.WriteLine($"{id} - {gpa.ToString("N3")}");
                 }
-                
+
             }
 
             //PROBLEM 2 FROM POWERPOINT
@@ -49,8 +49,8 @@ namespace _3_15_21_Collections
             * Ask them for a student id and output their GPA*/
 
             //NOTES
-                //when the lightbulb pops up after typing the first part click the first one and it puts a using statement at the top
-                //anytime there are parenthesis you are calling a method or a function
+            //when the lightbulb pops up after typing the first part click the first one and it puts a using statement at the top
+            //anytime there are parenthesis you are calling a method or a function
 
             Dictionary<string, double> students = new Dictionary<string, double>();
             students.Add("1", 3.0);
@@ -58,7 +58,7 @@ namespace _3_15_21_Collections
             students.Add("3", 2.5);
 
             Console.WriteLine("Do you want to add another student?>>");
-            string answer =Console.ReadLine();
+            string answer = Console.ReadLine();
 
             if (answer.ToLower()[0] == 'y')
             {
@@ -77,7 +77,7 @@ namespace _3_15_21_Collections
                 {
                     students.Add(ID, GPA);
                 }
-               
+
 
             }
 
@@ -97,13 +97,39 @@ namespace _3_15_21_Collections
             {
                 Console.WriteLine("That student id does not exist");
             }
-            
+
+            //EXAMPLE 3 FROM POWERPOINT
+            /*Using a List, ask the user to enter all of their favorite things.  Once they are done, 
+             * randomly pick a value from the list and display it.*/
+
+            //NOTES
+            //assuming everyone have one favorite thing so use a dowhile
+
+            List<string> favoriteThings = new List<string>();
+
+            do
+            {
+                Console.WriteLine("Name one of your favorite things. >>");
+                string Useranswer = Console.ReadLine();
+
+                favoriteThings.Add(Useranswer);
+
+                Console.WriteLine("Do you have another favorite thing?>>");
+                answer = Console.ReadLine();
+            } while (answer.ToLower()[0] == 'y');
+
+            Random rand = new Random();
+            int index = rand.Next(0, favoriteThings.Count + 1);
+
+            Console.WriteLine(favoriteThings[index]);
 
 
 
 
 
 
-        }
-    }
+
+
+}
+}
 }
