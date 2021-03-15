@@ -14,7 +14,7 @@ namespace _02_24_2021
                 sum = sum + 1;
                 //sum +=i;
             }
-            Console.WriteLine($"All the #'s added up from 1 to 100 is {sum.ToString}");
+           // Console.WriteLine($"All the #'s added up from 1 to 100 is {sum.ToString}");
         }
     }
 }
