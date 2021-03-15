@@ -32,7 +32,7 @@ namespace MidTerm_Extra_Practice
             Console.WriteLine(statement);
             Console.WriteLine(" ");
 
-            Console.WriteLine("Please pick a word fromt the above statement.");
+            Console.WriteLine("Please pick a word from the above statement.");
             answer = Console.ReadLine();
             string word = answer.ToLower();
 
