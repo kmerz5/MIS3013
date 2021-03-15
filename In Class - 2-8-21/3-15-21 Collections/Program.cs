@@ -51,6 +51,7 @@ namespace _3_15_21_Collections
             //NOTES
             //when the lightbulb pops up after typing the first part click the first one and it puts a using statement at the top
             //anytime there are parenthesis you are calling a method or a function
+            //Dictionary is the best thing for looking up something specific
 
             Dictionary<string, double> students = new Dictionary<string, double>();
             students.Add("1", 3.0);
@@ -119,7 +120,7 @@ namespace _3_15_21_Collections
             } while (answer.ToLower()[0] == 'y');
 
             Random rand = new Random();
-            int index = rand.Next(0, favoriteThings.Count + 1);
+            int index = rand.Next(0, favoriteThings.Count);
 
             Console.WriteLine(favoriteThings[index]);
 
