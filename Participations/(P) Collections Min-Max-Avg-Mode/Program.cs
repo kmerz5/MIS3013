@@ -25,17 +25,19 @@ namespace _P__Collections_Min_Max_Avg_Mode
 
             } while (answer.ToLower()[0] == 'y');
 
-            int Count = 0;
-            double Sum = ExamGrades.Sum();
-            double AverageGrade = 0;
-            for (int i = 1; i <= ExamGrades.Count; i++)
-            {
-                Count++;
-                  
-            }
-            AverageGrade = Sum / Count;
-            Console.WriteLine("Your average score of your exams is: " + AverageGrade);
             
+            double Sum = 0;
+            double AverageGrade = 0;
+
+           /* while (answer < ExamGrades)
+            {
+                Sum = Useranswer + Sum;
+            }
+            AverageGrade = Sum / ExamGrades.Count;
+            Console.WriteLine("Count" + ExamGrades.Count);
+            Console.WriteLine("Average: " + AverageGrade);*/
+
+
 
 
         }
