@@ -21,7 +21,15 @@ namespace _P__Collections_Min_Max_Avg_Mode
                 answer = Console.ReadLine();
 
             } while (answer.ToLower()[0] == 'y');
-            
+
+            double AverageGrade = 0;
+            for (int i = 1; i <= ExamGrades.Count; i++)
+            {
+                double grades = ExamGrades[i++];
+                AverageGrade = (grades + ExamGrades[i]) / ExamGrades.Count;
+                
+            }
+            Console.WriteLine("Your average score of your exams is, " + AverageGrade);
 
 
 
