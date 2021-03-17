@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "File_Sample-2-24-21", "File
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String Manipulation", "String Manipulation\String Manipulation.csproj", "{B67C24B8-D6A3-4C6D-8C28-45A588B04510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z 3-15-21 Collections (pt 2 Semester)", "3-15-21 Collections\Z 3-15-21 Collections (pt 2 Semester).csproj", "{309E8DA2-8A6A-4E3A-B3D4-1AC32F22D95D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z 3-15-21 Collections (pt 2 Semester)", "3-15-21 Collections\Z 3-15-21 Collections (pt 2 Semester).csproj", "{309E8DA2-8A6A-4E3A-B3D4-1AC32F22D95D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z Read in a File 3-17-2021", "Z Read in a File 3-17-2021\Z Read in a File 3-17-2021.csproj", "{46E0C1B3-4B49-43C1-A14D-1DD5D5FFAB24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{309E8DA2-8A6A-4E3A-B3D4-1AC32F22D95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{309E8DA2-8A6A-4E3A-B3D4-1AC32F22D95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{309E8DA2-8A6A-4E3A-B3D4-1AC32F22D95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E0C1B3-4B49-43C1-A14D-1DD5D5FFAB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E0C1B3-4B49-43C1-A14D-1DD5D5FFAB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E0C1B3-4B49-43C1-A14D-1DD5D5FFAB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E0C1B3-4B49-43C1-A14D-1DD5D5FFAB24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
