@@ -25,17 +25,19 @@ namespace _P__Collections_Min_Max_Avg_Mode
 
             } while (answer.ToLower()[0] == 'y');
 
-            
-            double Sum = 0;
-            double AverageGrade = 0;
-
-           /* while (answer < ExamGrades)
+            double AVERAGE;
+            double TotalGrades = 0;
+            for (int i = 0; i < ExamGrades.Count; i++)
             {
-                Sum = Useranswer + Sum;
+                TotalGrades = TotalGrades + ExamGrades[i];
+
             }
-            AverageGrade = Sum / ExamGrades.Count;
-            Console.WriteLine("Count" + ExamGrades.Count);
-            Console.WriteLine("Average: " + AverageGrade);*/
+            AVERAGE = TotalGrades / ExamGrades.Count;
+            Console.WriteLine("Average: " + AVERAGE);
+
+            ExamGrades.Sort();
+            Console.WriteLine("Minimum: " + ExamGrades[0]);
+            Console.WriteLine("Maximum: " + ExamGrades[ExamGrades.Count - 1]);
 
 
 
