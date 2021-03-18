@@ -39,6 +39,37 @@ namespace _P__Collections_Min_Max_Avg_Mode
             Console.WriteLine("Minimum: " + ExamGrades[0]);
             Console.WriteLine("Maximum: " + ExamGrades[ExamGrades.Count - 1]);
 
+            Dictionary<double, int> gradelist = new Dictionary<double, int>();
+            for (int i = 0; i < ExamGrades.Count; i++)
+            {
+                if (gradelist.ContainsKey(ExamGrades[1]))
+                {
+                    int value;
+                    if (gradelist.TryGetValue(ExamGrades[i], out value))
+                    {
+                        gradelist[ExamGrades[i]] = value + 1;
+
+                    }
+
+                }
+                else
+                {
+                    gradelist.Add(ExamGrades[i],1);
+                }
+
+            }
+            gradelist = gradelist.OrderByDescending(u => u.Value).ToDictionary(z =>z.Key, y => y.Value);
+
+            if (gradelist.First().Value > 1)
+            {
+                Console.WriteLine($"Mode:  {gradelist.First().Key}");
+
+            }
+            else
+            {
+                Console.WriteLine("There is no mode");
+            }
+
 
 
 
