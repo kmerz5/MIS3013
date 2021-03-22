@@ -11,8 +11,8 @@ namespace _P__All_Types_of_Collections_
 
             string answer;
 
-            
 
+            
             for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine("Please enter the course name.>>");
@@ -24,9 +24,19 @@ namespace _P__All_Types_of_Collections_
                 ClassNumbers[i] = answer;
 
             }
+            Console.WriteLine();
+            Console.WriteLine("Your classes are as follows:");
+            Console.WriteLine(SubjectNames[0] + ClassNumbers[0]);
+            Console.WriteLine();
+            Console.WriteLine(SubjectNames[1] + ClassNumbers[1]);
+            Console.WriteLine();
+            Console.WriteLine(SubjectNames[2] + ClassNumbers[2]);
+
 
 
             
+
+
 
         }
     }
