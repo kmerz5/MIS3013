@@ -39,6 +39,8 @@ namespace Z_Collections_Median__Average__Mode_Example
 
         //FINDING THE MAXIMUM FOR THE COLLECTION
             double max = examScores[0];
+            double sum = 0;
+                double avg = 0;
 
             foreach (double score in examScores)
             {
@@ -47,9 +49,14 @@ namespace Z_Collections_Median__Average__Mode_Example
                     max = score;
 
                 }
+                //finding the average
+                sum += score;
+                
+                
 
             }
             Console.WriteLine("The maximum value for the exam scores is: " + max.ToString("N2"));
+            avg = sum / examScores.Count;
 
         //FINDING THE MODE FOR THE COLLECTION
             Dictionary<double, int> exams = new Dictionary<double, int>();
