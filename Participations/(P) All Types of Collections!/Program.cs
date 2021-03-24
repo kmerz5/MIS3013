@@ -71,7 +71,7 @@ namespace _P__All_Types_of_Collections_
             courseGrades["MIS3013"].Add(0.85);
             courseGrades["MIS3013"].Add(0.98);
             double sum1 = 0;
-            double avg1 = sum1 / 3;
+            double avg1 = (sum1 / 3) * 100;
             
 
             courseGrades.Add("MIS3033", new List<double>());
@@ -79,38 +79,51 @@ namespace _P__All_Types_of_Collections_
             courseGrades["MIS3033"].Add(0.90);
             courseGrades["MIS3033"].Add(0.95);
             double sum2 = 0;
-            double avg2 = sum2 / 3;
+            double avg2 = (sum2 / 3) * 100;
 
             courseGrades.Add("MIS3213", new List<double>());
             courseGrades["MIS3213"].Add(0.97);
             courseGrades["MIS3213"].Add(0.80);
             courseGrades["MIS3213"].Add(0.75);
             double sum3 = 0;
-            double avg3 = sum3 / 3;
+            double avg3 = (sum3 / 3) * 100;
             //other way
             //List<double> MIS3013Grades = new List<double>();
             //MIS3013Grades.Add(0.70);
             //CourseGrades.Add("MIS3013, MIS3013Grades);
 
-            
-            foreach (string courseName in courseGrades.Keys)
+
+            foreach (string MIS3013 in courseGrades.Keys)
             {
-                List<double> grades = courseGrades[courseName];
-                for (int i = 0; i <= grades.Count; i++)
+                List<double> grades = courseGrades[MIS3013];
+                for (int i = 0; i < grades.Count; i++)
                 {
                     sum1 += grades[i];
 
                 }
-                for (int i = 0; i < grades.Count; i++)
+            }
+
+                foreach (string MIS3033 in courseGrades.Keys)
                 {
-                    sum2 += grades[i];
-                }
-                for (int i = 0; i < grades.Count; i++)
-                {
-                    sum3 += grades[i];
+                    List<double> grades = courseGrades[MIS3033];
+                    for (int i = 0; i < grades.Count; i++)
+                    {
+                        sum2 += grades[i];
+                    }
 
                 }
-            }
+                foreach (string MIS3213 in courseGrades.Keys)
+                {
+                List<double> grades = courseGrades[MIS3213];
+                for (int i = 0; i < grades.Count; i++)
+                    {
+                        sum3 += grades[i];
+
+                    }
+
+                }
+                
+            
 
             Console.WriteLine("Your average grades for MIS3013 is: " + avg1);
             Console.WriteLine("Your average grades for MIS3033 is: " + avg2);
