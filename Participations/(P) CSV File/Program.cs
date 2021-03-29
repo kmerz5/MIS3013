@@ -65,7 +65,11 @@ namespace _P__CSV_File
 
                 
 
-            }
+            } // end of for
+
+            Console.WriteLine("The total sales for shipped items for 2003 is " + totalFor2003.ToString("C"));
+            Console.WriteLine("The total sales for shipped items for 2004 is " + totalFor2004.ToString("C"));
+            Console.WriteLine("The total sales for shipped items for 2005 is " + totalFor2005.ToString("C"));
 
         }
     }
