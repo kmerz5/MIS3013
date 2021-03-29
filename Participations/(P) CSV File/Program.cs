@@ -24,15 +24,31 @@ namespace _P__CSV_File
             double totalFor2003 = 0;
             double totalFor2004 = 0;
             double totalFor2005 = 0;
-        //now we have every line of that file that we put in an array called lines
 
-         //need to iterate through each line of this file
-         //ORDERNUMBER	QUANTITYORDERED	PRICEEACH	ORDERLINENUMBER	SALES	ORDERDATE	STATUS	QTR_ID	MONTH_ID	YEAR_ID	PRODUCTLINE	MSRP	PRODUCTCODE	CUSTOMERNAME	PHONE	ADDRESSLINE1	ADDRESSLINE2	CITY	STATE	POSTALCODE	COUNTRY	TERRITORY	CONTACTLASTNAME	CONTACTFIRSTNAME	DEALSIZE
+            double[] monthlySales = new double[13]; //creating an array for each month of sales // do 13 bc the data starts at 1 but arrays start at 0
+            monthlySales[1] = 0;
+            monthlySales[2] = 0;
+            monthlySales[3] = 0;
+            monthlySales[4] = 0;
+            monthlySales[5] = 0;
+            monthlySales[6] = 0;
+            monthlySales[7] = 0;
+            monthlySales[8] = 0;
+            monthlySales[9] = 0;
+            monthlySales[10] = 0;
+            monthlySales[11] = 0;
+            monthlySales[12] = 0;
+            monthlySales[13] = 0;
 
-         //column called status at index 6 - datatype = string
-         //column called sales at index 4 - datatype = double
+            //now we have every line of that file that we put in an array called lines
 
-         //Use a for loop to start at 1 instead of 0
+            //need to iterate through each line of this file
+            //ORDERNUMBER	QUANTITYORDERED	PRICEEACH	ORDERLINENUMBER	SALES	ORDERDATE	STATUS	QTR_ID	MONTH_ID	YEAR_ID	PRODUCTLINE	MSRP	PRODUCTCODE	CUSTOMERNAME	PHONE	ADDRESSLINE1	ADDRESSLINE2	CITY	STATE	POSTALCODE	COUNTRY	TERRITORY	CONTACTLASTNAME	CONTACTFIRSTNAME	DEALSIZE
+
+            //column called status at index 6 - datatype = string
+            //column called sales at index 4 - datatype = double
+
+            //Use a for loop to start at 1 instead of 0
 
             for (int i = 1; i < lines.Length; i++)
             {
@@ -61,11 +77,68 @@ namespace _P__CSV_File
                         default:
                             break;
                     }
+                 /*for the months part of the example
+                    switch (month)
+                    { 
+                    monthlySales[month] += sales;
+                    } */
                 }
 
                 
 
             } // end of for
+
+            /* Months part of the example
+             * for (int i = 1; i < montlySales.Lenght; i++)
+             * {
+             * if(i ==1)
+             *  {
+             *      Console.WriteLine("January sales total is " + monthlySales[i].ToString("C"));
+             * }
+             * else if (i == 2)
+             * {
+             *  Console.WriteLine("February sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 3)
+             * {
+             *  Console.WriteLine("March sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 4)
+             * {
+             *  Console.WriteLine("April sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 5)
+             * {
+             *  Console.WriteLine("May sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 6)
+             * {
+             *  Console.WriteLine("June sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 7)
+             * {
+             *  Console.WriteLine("July sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 8)
+             * {
+             *  Console.WriteLine("August sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 9)
+             * {
+             *  Console.WriteLine("September sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 10)
+             * {
+             *  Console.WriteLine("October sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 11)
+             * {
+             *  Console.WriteLine("November sales total is " + monthlySales[i].ToString("C"));
+             *  }
+             *  else if (i == 12)
+             * {
+             *  Console.WriteLine("December sales total is " + monthlySales[i].ToString("C"));
+             *  } */ 
 
             Console.WriteLine("The total sales for shipped items for 2003 is " + totalFor2003.ToString("C"));
             Console.WriteLine("The total sales for shipped items for 2004 is " + totalFor2004.ToString("C"));
