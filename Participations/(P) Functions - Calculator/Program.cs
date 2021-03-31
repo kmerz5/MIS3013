@@ -11,6 +11,24 @@ namespace _P__Functions___Calculator
             string date = "March 31, 2021";
             Console.WriteLine(DeveloperInformation);
 
+            Console.WriteLine("What application would you like to run? >>");
+            string answer = Console.ReadLine().ToLower();
+            Console.WriteLine("What is your first numerical value? >>");
+            answer = Console.ReadLine();
+            double val1 = Convert.ToDouble(answer);
+            Console.WriteLine("What is your second numerical value? >>");
+            answer = Console.ReadLine();
+            double val2 = Convert.ToDouble(answer);
+            do
+            {
+                if (answer == "add")
+                {
+                    
+
+                }
+
+            } while (true);
+
 
         }
         //ADD - "Add" - make sure it has a capital A
