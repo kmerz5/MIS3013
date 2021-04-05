@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z Read in a File 3-17-2021"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z Collections Median, Average, Mode Example", "Z Collections Median, Average, Mode Example\Z Collections Median, Average, Mode Example.csproj", "{B3D3C3AB-A91D-4001-8241-139043741DDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "In Class 3-31-21", "In Class 3-31-21\In Class 3-31-21.csproj", "{DBD7F231-DE5C-4545-BBCD-87EB8131056B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "In Class 3-31-21", "In Class 3-31-21\In Class 3-31-21.csproj", "{DBD7F231-DE5C-4545-BBCD-87EB8131056B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-5-21 Methods", "4-5-21 Methods\4-5-21 Methods.csproj", "{8787F519-E5C6-48B4-B6B7-8F00321A21ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{DBD7F231-DE5C-4545-BBCD-87EB8131056B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBD7F231-DE5C-4545-BBCD-87EB8131056B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBD7F231-DE5C-4545-BBCD-87EB8131056B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8787F519-E5C6-48B4-B6B7-8F00321A21ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8787F519-E5C6-48B4-B6B7-8F00321A21ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8787F519-E5C6-48B4-B6B7-8F00321A21ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8787F519-E5C6-48B4-B6B7-8F00321A21ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
