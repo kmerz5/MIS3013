@@ -6,7 +6,7 @@ namespace _04_12_2021___Classes
 {//To add the class right click the project and add class then name according to UML then add public infront of word class
     public class Rectangle
     {
-      
+    //______________________________________________________________________________________________________________________  
  //ADD OUR PROPERTIES/ATTRIBUTES (+ = PUBLIC / -= PRIVATE)
             //public double _Length; //public is letting the whole world have access to it
            // public double GetLength()
@@ -24,11 +24,12 @@ namespace _04_12_2021___Classes
         public double Width { get; set; }
 
         //Then you can access this class from the Program.cs after defining them here
-
+//_______________________________________________________________________________________________________________________
 //ADDING IN OUR METHODS
      //constructor - the default / if we dont put anything inside our class we get this method for free but we dont see it on our screen
         //ctor and tab twice it will create the constructor for you
         //giving the values we defined above a starting value
+
         public Rectangle()
         {
             Length = 7;
@@ -42,7 +43,29 @@ namespace _04_12_2021___Classes
             Width = width; //OR this.Width = Width; (if above double width is double Width
 
         }
+    //----------------------------------------------
+    /// <summary>
+    /// Calculate the area of the retangle instance
+    /// </summary>
+    /// <returns>The area of the rectangle</returns>
+     
+        public double CalculateArea()
+        {
+            //normally dont do readlines or writelines inside these
+            //DONT DEFINE VARIABLES IN HERE / WE USE THE VALUES OF THE VARIABLES ABOVE
+            return Width * Length;
+        }
+    //---------------------------------------------------------
+/// <summary>
+/// Calculate the perimeter of this rectangle instance
+/// </summary>
+/// <returns>The area of this rectangle</returns>
+        public double CalculatePerimiter()
+        {
+            return 2 * (Length + Width);
+        }
 
+        //DONE CREATING THIS CLASS
 
     }
 }
