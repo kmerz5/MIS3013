@@ -21,6 +21,17 @@ namespace _04_12_2021___Classes
 
             //Rectangle is the class
             //rect1 & rect2 are the intances
+
+//____________________________________________________________________________________________________
+
+            //Create first instance of our circle
+            Circle circ1 = new Circle();
+            circ1.Radius = 3.33;
+            Console.WriteLine($"Circle 1: R:{circ1.Radius}, A:{circ1.CalculateArea()}, P:{circ1.CalculatePerimiter()}");
+
+            Circle circ2 = new Circle();
+            circ2.Radius = 9.66;
+            Console.WriteLine($"Circle 2: R:{circ2.Radius}, A:{circ2.CalculateArea()}, P:{circ2.CalculatePerimiter()}");
         }
     }
 }
