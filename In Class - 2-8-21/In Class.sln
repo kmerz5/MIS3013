@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z Collections Median, Avera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "In Class 3-31-21", "In Class 3-31-21\In Class 3-31-21.csproj", "{DBD7F231-DE5C-4545-BBCD-87EB8131056B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-5-21 Methods", "4-5-21 Methods\4-5-21 Methods.csproj", "{8787F519-E5C6-48B4-B6B7-8F00321A21ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-5-21 Methods", "4-5-21 Methods\4-5-21 Methods.csproj", "{8787F519-E5C6-48B4-B6B7-8F00321A21ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-12-2021 - Classes", "04-12-2021 - Classes\04-12-2021 - Classes.csproj", "{4B1FFC99-6BED-44B8-A810-1B214E7CC87E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8787F519-E5C6-48B4-B6B7-8F00321A21ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8787F519-E5C6-48B4-B6B7-8F00321A21ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8787F519-E5C6-48B4-B6B7-8F00321A21ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1FFC99-6BED-44B8-A810-1B214E7CC87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1FFC99-6BED-44B8-A810-1B214E7CC87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1FFC99-6BED-44B8-A810-1B214E7CC87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1FFC99-6BED-44B8-A810-1B214E7CC87E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
