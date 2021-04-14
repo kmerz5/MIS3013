@@ -22,6 +22,12 @@ namespace _P__Classes___Toy
 
         }
 
+        public Toy(string notes)
+        {
+            Notes = notes;
+            
+        }
+
         public string GetAisle()
         {
             char FirstLetter = Manufacturer.ToUpper()[0];
