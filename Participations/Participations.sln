@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(P) CSV File", "(P) CSV Fil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Functions - Calculator", "(P) Functions - Calculator\(P) Functions - Calculator.csproj", "{5C63F7D9-9D1B-413E-B2B8-E61C744E1AD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Simple Method (Speak)", "(P) Speak\(P) Simple Method (Speak).csproj", "{0D87DFCF-5D13-4DC2-A304-58F65111D11B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(P) Simple Method (Speak)", "(P) Speak\(P) Simple Method (Speak).csproj", "{0D87DFCF-5D13-4DC2-A304-58F65111D11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Classes - Toy", "(P) Classes - Toy\(P) Classes - Toy.csproj", "{AA49BE13-3620-4D33-82AB-9D0B3B2DAC62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{0D87DFCF-5D13-4DC2-A304-58F65111D11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D87DFCF-5D13-4DC2-A304-58F65111D11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D87DFCF-5D13-4DC2-A304-58F65111D11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA49BE13-3620-4D33-82AB-9D0B3B2DAC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA49BE13-3620-4D33-82AB-9D0B3B2DAC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA49BE13-3620-4D33-82AB-9D0B3B2DAC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA49BE13-3620-4D33-82AB-9D0B3B2DAC62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
