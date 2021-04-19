@@ -45,6 +45,14 @@ namespace _P__Classes___Toy
             //return LetterNumber;
             return aisle;
         }
+
+        public override string ToString()
+        {
+            return base.ToString();
+            //so instead of what is above, you can change it to be the string we created in the other program
+            //so we dont have to keep copy and pasting it so you can just say Console.WriteLine(toy1); and it
+            //will show the sentence we created in the other program
+        }
     }
 }
  
