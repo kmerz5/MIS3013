@@ -7,25 +7,22 @@ namespace _P__Classes___ToyBox
     {
         static void Main(string[] args)
         {
-            //put these into a collection
-            //need to keep asking the user if they want to add more toyboxes(make a look getting the information for the toybox 
-            //then ask if they have another toybox to add.
-            ToyBox TB1 = new ToyBox()
-            {
-                Location = "Andy's Bedroom",
-                Owner = "Andy"
-            };
-            ToyBox TB2 = new ToyBox()
-            {
-                Location = "Anna's Bedroom",
-                Owner = "Anna"
-            };
-
-            List<ToyBox> toyboxes = new List<ToyBox>();
-
-            string answer;
-
             
+            List<ToyBox> toyboxes = new List<ToyBox>();
+            string UserAnswer;
+            
+               Console.WriteLine("Please add a toybox.");
+                do
+                {
+                    ToyBox newToyBox = GetNewToyBoxFromUser();
+                    toyboxes.Add(newToyBox);
+                    Console.WriteLine("Do you want to add another toybox? yes or no>>");
+                    UserAnswer = Console.ReadLine();
+
+                } while (UserAnswer.ToLower() == "yes");
+
+ 
+            string answer;
                 foreach (ToyBox toyBox in toyboxes)
                 {
                 Console.WriteLine($"Time to fill {toyBox.Owner}'s Toy Box!");
@@ -44,7 +41,8 @@ namespace _P__Classes___ToyBox
 
                 }
 
-            Console.WriteLine("time to take a look at all your toys!");
+            Console.WriteLine("Time to take a look at all your toys!");
+            Console.WriteLine();
             foreach (ToyBox toyBox in toyboxes)
             {
                 Console.WriteLine($"Content of {toyBox.Owner}'s ToyBox!");
@@ -52,13 +50,38 @@ namespace _P__Classes___ToyBox
                 {
                     Console.WriteLine(toy);
 
+
                 }
+                
+                
+
+            }
+
+            foreach (ToyBox TB in toyboxes)
+            {
+                Console.WriteLine($"{TB.GetRandomToy()}");
 
             }
                 
 
             
 
+        }
+
+        private static ToyBox GetNewToyBoxFromUser()
+        {
+            Console.WriteLine("Enter the location of the toybox.");
+            string loc = Console.ReadLine();
+
+            Console.WriteLine("Enter the owner of the toybox.");
+            string owner = Console.ReadLine();
+
+            ToyBox box = new ToyBox()
+            {
+                Location = loc,
+                Owner = owner
+            };
+            return box;
         }
 
         private static Toy GetNewToyFromUser()

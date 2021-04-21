@@ -53,6 +53,11 @@ namespace _P__Classes___ToyBox
                 return aisle;
             }
 
-            
+        public override string ToString()
+        {
+            return $"{Name} manufactured by {Manufacturer} for {Price.ToString("C2")} can be found on Aisle {GetAisle()}";
         }
+
+
+    }
 }
