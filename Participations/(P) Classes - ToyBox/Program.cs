@@ -59,7 +59,7 @@ namespace _P__Classes___ToyBox
 
             foreach (ToyBox TB in toyboxes)
             {
-                Console.WriteLine($"{TB.GetRandomToy()}");
+                Console.WriteLine($"{TB.GetRandomToy().Name}");
 
             }
                 
