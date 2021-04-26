@@ -47,18 +47,18 @@ namespace _P__Classes___Cereal
                
                 if (cereal.Cups >= 1)
                 {
-                    Console.WriteLine(c);
+                    Console.WriteLine(cereal);
 
                 }
             }
-
+            Console.WriteLine(" ");
             Console.WriteLine("List of cereal information for cereals that have 100 or less calories per serving:");
             Console.WriteLine(" ");
             foreach (Cereal cereal in bowls)
             {
                 if (cereal.Calories <=100)
                 {
-                    Console.WriteLine(c);
+                    Console.WriteLine(cereal);
 
                 }
 
