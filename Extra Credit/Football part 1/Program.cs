@@ -57,7 +57,8 @@ namespace Football_part_1
             }
             else
             {
-                Console.WriteLine("Sorry, that color was not one of the choices. Goodbye!");     
+                Console.WriteLine("Sorry, that color was not one of the choices. Goodbye!");
+                Environment.Exit(1);
             }
             return teamcolor;
         }
