@@ -61,6 +61,7 @@ namespace Extra_Credit
                 }
 
             }
+            
 
             //Ask the user for a team name and output the information but using a method
             Console.WriteLine(" ");
@@ -76,7 +77,10 @@ namespace Extra_Credit
                
 
             }
+
+            
         }
+        
 
         
     }

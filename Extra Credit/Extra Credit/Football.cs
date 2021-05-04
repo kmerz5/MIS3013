@@ -21,6 +21,8 @@ namespace Extra_Credit
             Drafted = string.Empty;
         }
 
+        
+
         //override string for the output
         public override string ToString()
         {
