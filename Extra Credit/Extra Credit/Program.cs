@@ -63,7 +63,7 @@ namespace Extra_Credit
             }
             
 
-            //Ask the user for a team name and output the information but using a method
+            //Ask the user for a team name and output the information 
             Console.WriteLine(" ");
             Console.WriteLine("Please choose a football team in which you would like to see the quarterback information.");
             string answer = Console.ReadLine();
