@@ -17,7 +17,35 @@ namespace _P__Methods___Speak
 
             e.g. A dog makes the sound of ruff!*/
 
+            string answer;
+            Console.WriteLine("Please enter a type of animal into the console >>");
+            answer = Console.ReadLine();
+            string Output = speak(answer);  
 
+
+        }
+        static string speak(string answer)
+        {
+            if (answer.ToLower() == "dog")
+            {
+                Console.WriteLine("A dog says 'woof'!");
+
+            }
+            else if (answer.ToLower() == "monkey")
+            {
+                Console.WriteLine("A money says 'oohoohaahaah'");
+
+            }
+            else if (answer.ToLower() == "goat") 
+            {
+                Console.WriteLine("A goat says 'bahahahaha'");
+
+            }
+            else
+            {
+                Console.WriteLine($"{answer} makes the noise 'oooooooop'");
+            }
+            return answer;
         }
     }
 }
