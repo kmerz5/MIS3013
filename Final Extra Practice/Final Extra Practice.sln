@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xCereal 2", "Cereal 2\xCere
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xHomework 6", "xHomework 6\xHomework 6.csproj", "{F13E3729-3510-4994-BD9B-BCC79D255FF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xHomework 7", "xHomework 7\xHomework 7.csproj", "{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{F13E3729-3510-4994-BD9B-BCC79D255FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13E3729-3510-4994-BD9B-BCC79D255FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13E3729-3510-4994-BD9B-BCC79D255FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
