@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework 7", "Homework 7\Ho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework 8", "Homework 8\Homework 8.csproj", "{3132704D-E951-4A12-8FF8-391969D1B23E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xSpeak", "Speak\xSpeak.csproj", "{004CB264-0BF5-47DE-B5C0-E39553CD9E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xSpeak", "Speak\xSpeak.csproj", "{004CB264-0BF5-47DE-B5C0-E39553CD9E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xCereal 2", "Cereal 2\xCereal 2.csproj", "{968FDBDA-97A5-449B-A84F-E3EE069D6D69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xCereal 2", "Cereal 2\xCereal 2.csproj", "{968FDBDA-97A5-449B-A84F-E3EE069D6D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xHomework 6", "xHomework 6\xHomework 6.csproj", "{F13E3729-3510-4994-BD9B-BCC79D255FF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xHomework 6", "xHomework 6\xHomework 6.csproj", "{F13E3729-3510-4994-BD9B-BCC79D255FF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xHomework 7", "xHomework 7\xHomework 7.csproj", "{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xHomework 7", "xHomework 7\xHomework 7.csproj", "{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ySpeak", "ySpeak\ySpeak.csproj", "{570DF897-4D78-49CF-BD02-A3A0B8B81DCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570DF897-4D78-49CF-BD02-A3A0B8B81DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570DF897-4D78-49CF-BD02-A3A0B8B81DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570DF897-4D78-49CF-BD02-A3A0B8B81DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570DF897-4D78-49CF-BD02-A3A0B8B81DCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
