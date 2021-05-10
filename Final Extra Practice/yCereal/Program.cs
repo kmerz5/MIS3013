@@ -16,7 +16,7 @@ namespace yCereal
             for (int i = 1; i < lines.Length; i++)
             {
                 string cerealinformation = lines[i];
-                string [] CI = cerealinformation.Split('|'); //FORGOT THE [] YOU NEED THIS
+                string [] CI = cerealinformation.Split('|'); //FORGOT THE [] YOU NEED THIS this means that its an array
 
                 Cereal c = new Cereal();
                 c.Manufacturer = CI[0];
