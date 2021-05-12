@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xHomework 6", "xHomework 6\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xHomework 7", "xHomework 7\xHomework 7.csproj", "{DF43A97F-1B6D-4D1C-8EEC-9B23F3883ABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ySpeak", "ySpeak\ySpeak.csproj", "{570DF897-4D78-49CF-BD02-A3A0B8B81DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ySpeak", "ySpeak\ySpeak.csproj", "{570DF897-4D78-49CF-BD02-A3A0B8B81DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yCereal", "yCereal\yCereal.csproj", "{22BD521D-3153-4B85-A28A-E4C7670CF25B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yCereal", "yCereal\yCereal.csproj", "{22BD521D-3153-4B85-A28A-E4C7670CF25B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yHomework6", "yHomework6\yHomework6.csproj", "{14084FBA-2E9A-4ADD-ABB2-A0BC8C8F36F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yHomework6", "yHomework6\yHomework6.csproj", "{14084FBA-2E9A-4ADD-ABB2-A0BC8C8F36F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yHomework 7", "yHomework 7\yHomework 7.csproj", "{48A51051-FF58-4672-8B5D-D4F74C501963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yHomework 7", "yHomework 7\yHomework 7.csproj", "{48A51051-FF58-4672-8B5D-D4F74C501963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zSpeak", "zSpeak\zSpeak.csproj", "{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{48A51051-FF58-4672-8B5D-D4F74C501963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48A51051-FF58-4672-8B5D-D4F74C501963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48A51051-FF58-4672-8B5D-D4F74C501963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
