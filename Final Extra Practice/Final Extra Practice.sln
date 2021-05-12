@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yHomework 7", "yHomework 7\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zSpeak", "zSpeak\zSpeak.csproj", "{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zHomework6", "zHomework6\zHomework6.csproj", "{BEDD1AE1-7B2C-428F-A3D7-6B9E5F3F4F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60DF2A82-E20E-45F1-85A7-09CF9ED07B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDD1AE1-7B2C-428F-A3D7-6B9E5F3F4F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDD1AE1-7B2C-428F-A3D7-6B9E5F3F4F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDD1AE1-7B2C-428F-A3D7-6B9E5F3F4F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDD1AE1-7B2C-428F-A3D7-6B9E5F3F4F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
